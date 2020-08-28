@@ -89,7 +89,7 @@ bar_one_state_visz <- function(dataset, state){
 }
 
 # Testing
-bar_one_state_visz(covid_table, "Nueva Esparta")
+#bar_one_state_visz(covid_table, "Nueva Esparta")
 
 
 # Numerical Variables Service Plot
@@ -155,7 +155,7 @@ services_er_beds <- function(dataset, estado){
 }
 
 
-services_er_beds(covid_table, 'Apure')
+#services_er_beds(covid_table, 'Apure')
 
 
 

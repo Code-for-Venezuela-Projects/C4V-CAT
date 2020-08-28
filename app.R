@@ -1,8 +1,22 @@
 # Covid Assesment Tool in Venezuela
 
+# Functions for Visualiation
+# Made by Samir
+source("daily_visualizations.R") 
+# Made by Luis 
+source("Trend_Lines_Functions.R")
 
+
+# Script to input data from Google Sheets
+source("Input_Data_Script.R")
+
+
+
+# Loading Libraries
 library(shinydashboard)
 library(shiny)
+library(tidyverse)
+library(plotly)
 
 
 ui <- dashboardPage(
